@@ -3,12 +3,13 @@
   padding: 0;
 }
 body {
-  background-color: aliceblue;
+  background-color: #ffffff;
+  font-family: "Orbitron", serif;
 }
 
 /* NavBar */
 
-nav > div {
+nav div {
   display: inline-block;
 }
 
@@ -20,11 +21,28 @@ nav > div > img {
 .list {
   display: inline;
   list-style-type: none;
-  margin-left: 400px;
+  margin-left: 300px;
   margin-top: 0;
+  color: #000000;
 }
 
 .list-item {
   display: inline;
   padding-left: 20px;
+  cursor: pointer;
+}
+
+.button-group {
+  margin-left: 300px;
+}
+
+.search-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-button {
+  font-size: 1.3em;
+  padding: 6px 50px;
+  border-radius: 10px;
 }

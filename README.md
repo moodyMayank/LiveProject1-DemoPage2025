@@ -16,4 +16,10 @@ Absolute and Relative
 
 ## NavBar
 
-1. First Problem : div are block level elements and we need to make them inline
+1. Problem : div are block level elements and we need to make them inline
+   Solution : so basically in navbar we pick all the elements and make them inline-block
+
+2. Problem : How to use this preconnected fonts ?
+   Solution : So basically just use them directly by name , no need of more imports
+
+3. Problem :
